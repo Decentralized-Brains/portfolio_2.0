@@ -2,7 +2,10 @@ import AboutImg from "../assets/img/about.jpg";
 
 const About = () => {
   return (
-    <div className="container grid md:grid-cols-2 xl:my-24 xl:gap-12">
+    <div
+      id="about"
+      className="container grid md:grid-cols-2 xl:my-24 xl:gap-12"
+    >
       <div className="h-[160px] md:hidden"></div>
       <div className="flex justify-end">
         <img

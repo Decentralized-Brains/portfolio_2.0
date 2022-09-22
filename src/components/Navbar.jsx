@@ -22,7 +22,7 @@ const Navbar = () => {
     {
       id: 1,
       text: "Home",
-      url: "/",
+      url: "/#",
     },
     {
       id: 2,
@@ -31,16 +31,21 @@ const Navbar = () => {
     },
     {
       id: 3,
-      text: "Skills",
-      url: "/#skills",
-    },
-    {
-      id: 4,
       text: "Projects",
       url: "/#projects",
     },
     {
+      id: 4,
+      text: "Services",
+      url: "/#servies",
+    },
+    {
       id: 5,
+      text: "Team",
+      url: "/#team",
+    },
+    {
+      id: 6,
       text: "Contact",
       url: "/#contact",
     },

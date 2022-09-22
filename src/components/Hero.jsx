@@ -9,7 +9,7 @@ const Hero = () => {
     <div id="hero">
       <div className="container min-h-screen grid place-items-center md:grid-cols-2 border-b border-gray-300/30">
         <div className="h-[90px] md:hidden"></div>
-        <div>
+        <div className="mt-6">
           <h1 className="text-white xl:text-[64px]">
             Want to adopt <span className="text-orange-400">Blockchain</span>?
             You're in the right place!
@@ -37,7 +37,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="pt-6 md:pt-0">
+        <div className="mt-6 md:pt-0">
           <img
             className="w-full max-w-[500px] border-2 border-purple-500 p-4 rounded-xl mb-4 md:mb-0"
             src={HeroImage}

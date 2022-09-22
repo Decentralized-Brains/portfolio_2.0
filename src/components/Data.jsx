@@ -51,15 +51,15 @@ export const MemberesData = [
   },
   {
     id: 2,
-    img: img3,
-    name: "Biplob kumar",
-    title: "Smart Contract Developer",
-  },
-  {
-    id: 3,
     img: img2,
     name: "Md. Abdullah Ibn Noor",
     title: "Project Manager & Content Writer",
+  },
+  {
+    id: 3,
+    img: img3,
+    name: "Biplob kumar",
+    title: "Smart Contract Developer",
   },
   {
     id: 4,

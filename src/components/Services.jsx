@@ -7,7 +7,7 @@ import { servicesData } from "./Data";
 
 const Services = () => {
   return (
-    <div className="container py-20 service">
+    <div className="container py-20 service" id="servies">
       <p className="text-orange-500">What We Do</p>
       <h2 className="text-white mb-1">Our Core Services</h2>
       <div className="md:flex gap-8">

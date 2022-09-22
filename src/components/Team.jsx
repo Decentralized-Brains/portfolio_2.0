@@ -4,7 +4,7 @@ import "../App.css";
 
 const Team = () => {
   return (
-    <div className="TeamSection">
+    <div className="TeamSection" id="team">
       <div className="container text-center py-12 mt-10">
         <p className="text-orange-500">TEAM</p>
         <h2 className="text-white mb-1">Meet Our Team</h2>
