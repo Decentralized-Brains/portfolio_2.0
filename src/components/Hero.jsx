@@ -3,6 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import "../App.css";
 
 import HeroImage from "../assets/img/hero.jpg";
+import Upwork from "../assets/img/upwork.png";
 
 const Hero = () => {
   return (
@@ -19,9 +20,17 @@ const Hero = () => {
             customized blockchain services to help organizations and startups
             quickly integrate and deploy blockchain technology
           </p>
-          <button>
-            Our Projects <AiOutlineArrowRight />
-          </button>
+          <div className="flex gap-4">
+            <button>
+              Our Projects <AiOutlineArrowRight />
+            </button>
+            <a
+              href="#"
+              className="w-[120px] bg-white hover:bg-purple-200 duration-300 grid place-items-center px-3 rounded-md"
+            >
+              <img src={Upwork} alt="" />
+            </a>
+          </div>
           <div className="flex mt-10 xl:mt-[100px] justify-start">
             <div className="text-center border-r border-gray-600 pr-6">
               <h2 className="text-white">613+</h2>

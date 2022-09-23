@@ -2,7 +2,7 @@ import "../App.css";
 
 const Footer = () => {
   return (
-    <div id="contact">
+    <div id="contact" className="px-4 md:px-0">
       <div className="h-[100px]"></div>
       <div className="container bg-gradient-to-r from-[#4307e7] to-[#ab17df] p-20 rounded-xl footer">
         <p className="text-orange-400">NEWSLETTER</p>
