@@ -25,7 +25,8 @@ const Hero = () => {
               Our Projects <AiOutlineArrowRight />
             </button>
             <a
-              href="#"
+              href="https://www.upwork.com/freelancers/~016193c56808f69e07"
+              target="_blank"
               className="w-[120px] bg-white hover:bg-purple-200 duration-300 grid place-items-center px-3 rounded-md"
             >
               <img src={Upwork} alt="" />

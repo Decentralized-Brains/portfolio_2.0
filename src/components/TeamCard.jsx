@@ -1,5 +1,5 @@
 const TeamCard = ({ data }) => {
-  const { img, name, title } = data;
+  const { img, name, title, description } = data;
   return (
     <div className="max-w-[400px] text-center relative overflow-hidden group">
       <img
@@ -12,10 +12,7 @@ const TeamCard = ({ data }) => {
       <div className="w-full  absolute bottom-0 translate-y-[150%] group-hover:translate-y-0 duration-300">
         <div className="bg-black/80 backdrop-blur-lg p-2 rounded-lg border border-gray-400/20">
           <h3 className="text-gray-200">{name}</h3>
-          <p className="text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            ratione.
-          </p>
+          <p className="text-gray-400">{description}</p>
         </div>
       </div>
     </div>
