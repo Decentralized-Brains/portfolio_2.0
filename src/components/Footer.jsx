@@ -7,9 +7,7 @@ const Footer = () => {
       <div className="container bg-gradient-to-r from-[#4307e7] to-[#ab17df] p-20 rounded-xl footer">
         <p className="text-orange-400">NEWSLETTER</p>
         <h2 className="text-white">Join Our Newsletter</h2>
-        <p className="text-gray-300 pt-2 pb-4">
-          Eget nulla phasellus odio sit porttitor enatibus aliquam
-        </p>
+        <p className="text-gray-300 pt-2 pb-4">Get all updates of our site.</p>
         <div className="md:flex gap-2">
           <input
             type="text"

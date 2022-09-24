@@ -47,7 +47,7 @@ export const MemberesData = [
   {
     id: 1,
     img: img1,
-    name: "Pritom Sarker (CEO)",
+    name: "Pritom Sarker (Founder)",
     title: "Smart Contract Developer",
     description:
       "I am smart contract developer, I like to take challenge and bring new things to the Blockchain mainstream.",
