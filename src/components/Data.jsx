@@ -3,7 +3,7 @@ import img2 from "../assets/members/2.jpeg";
 import img3 from "../assets/members/3.jpeg";
 import img4 from "../assets/members/4.jpg";
 import img5 from "../assets/members/5.jpg";
-import img6 from "../assets/members/6.jpeg";
+import img6 from "../assets/members/6.jpg";
 import img7 from "../assets/members/7.jpg";
 
 export const servicesData = [

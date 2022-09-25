@@ -1,5 +1,7 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { BsWhatsapp, BsTelegram } from "react-icons/bs";
+import { HiMail } from "react-icons/hi";
 import "../App.css";
 
 import HeroImage from "../assets/img/hero.jpg";
@@ -32,7 +34,30 @@ const Hero = () => {
               <img src={Upwork} alt="" />
             </a>
           </div>
-          <div className="flex mt-10 xl:mt-[100px] justify-start">
+          <div className="flex pt-6 gap-4 text-xl">
+            <a
+              className="text-white hover:text-purple-600 duration-200"
+              href="https://wa.me/+8801750352163"
+              target="_blank"
+            >
+              <BsWhatsapp />
+            </a>
+            <a
+              className="text-white hover:text-purple-600 duration-200 text-2xl -mt-[2px]"
+              href="https://share.streak.com/BlBBkOevxGmgGuobOXUGxI"
+              target="_blank"
+            >
+              <HiMail />
+            </a>
+            <a
+              className="text-white hover:text-purple-600 duration-200"
+              href="https://t.me/iampritom"
+              target="_blank"
+            >
+              <BsTelegram />
+            </a>
+          </div>
+          <div className="flex mt-10 xl:mt-[50px] justify-start">
             <div className="text-center border-r border-gray-600 pr-6">
               <h2 className="text-white">613+</h2>
               <p className="text-gray-300 mt-2">Freelancing Project</p>
