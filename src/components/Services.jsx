@@ -11,7 +11,7 @@ const Services = () => {
       <p className="text-orange-500">What We Do</p>
       <h2 className="text-white mb-1">Our Core Services</h2>
       <div className="md:flex gap-8">
-        <div className="grid md:grid-cols-2 gap-4 mt-8">
+        <div className="grid justify-items-center md:grid-cols-2 gap-4 mt-8">
           {servicesData.map((data) => (
             <ServiceCard key={data.id} data={data} />
           ))}

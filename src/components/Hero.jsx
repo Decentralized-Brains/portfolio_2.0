@@ -10,9 +10,16 @@ import Upwork from "../assets/img/upwork.png";
 const Hero = () => {
   return (
     <div id="hero">
-      <div className="container min-h-screen grid place-items-center md:grid-cols-2 border-b border-gray-300/30">
+      <div className="hidden opacity-70 items-center justify-center px-16 lg:flex">
+        <div className="relative w-full max-w-lg">
+          <div className="absolute top-[200px] -left-[400px] w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
+          <div className="absolute top-[300px] -right-[220px] w-96 h-96 bg-yellow-400 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
+          <div className="absolute -bottom-[200px] left-20 w-96 h-96 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-4000"></div>
+        </div>
+      </div>
+      <div className="relative container min-h-screen grid place-items-center md:grid-cols-2 border-b border-gray-300/30">
         <div className="h-[90px] md:hidden"></div>
-        <div className="mt-6">
+        <div className="mt-[4rem]">
           <h1 className="text-white xl:text-[64px]">
             Want to adopt <span className="text-orange-400">Blockchain</span>?
             You're in the right place!
@@ -24,7 +31,8 @@ const Hero = () => {
           </p>
           <div className="flex gap-4">
             <button>
-              Our Projects <AiOutlineArrowRight />
+              <a href="#projects">Our Projects</a>
+              <AiOutlineArrowRight />
             </button>
             <a
               href="https://www.upwork.com/freelancers/~016193c56808f69e07"
@@ -72,11 +80,11 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="mt-6 md:pt-0">
+        <div className="mt-[4rem] md:pt-0">
           <img
             className="w-full max-w-[500px] border-2 border-purple-500 p-4 rounded-xl mb-4 md:mb-0"
             src={HeroImage}
-            alt=""
+            alt="space_hero"
           />
         </div>
       </div>

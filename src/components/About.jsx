@@ -4,20 +4,19 @@ const About = () => {
   return (
     <div
       id="about"
-      className="container grid md:grid-cols-2 xl:my-24 xl:gap-12"
+      className="container grid md:grid-cols-2 my-10 lg:my-24 gap-6 lg:gap-12"
     >
-      <div className="h-[160px] md:hidden"></div>
-      <div className="flex justify-end">
+      <div className="flex justify-center lg:justify-end">
         <img
           className="rounded-xl w-full max-w-[500px] mb-4 md:mb-0"
           src={AboutImg}
-          alt=""
+          alt="space_bycicle"
         />
       </div>
       <div className="flex flex-col justify-center">
-        <p className="text-orange-500">STORY</p>
-        <h2 className="text-white mb-4">ABOUT US</h2>
-        <div className="text-gray-300 text-lg">
+        <p className="text-orange-500 text-center">STORY</p>
+        <h2 className="text-white mb-4 text-center">ABOUT US</h2>
+        <div className="text-gray-300 text-lg text-justify">
           <p>
             Our team can help integrate blockchain into your business as a
             blockchain development company. From cryptocurrency development

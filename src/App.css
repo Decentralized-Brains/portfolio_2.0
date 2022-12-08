@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 4s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 6s;
+  }
+}
 
 * {
   font-family: "Play", sans-serif;
@@ -7,24 +19,32 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
 body {
-  background: #0c0324;
-}
-#hero {
-  width: 100%;
-  min-height: 100vh;
-  background: url("./assets/img/bg.png") center no-repeat;
-  background-size: cover;
+  background: rgb(26, 26, 44);
 }
 .service {
   background: url("./assets/img/star-bg.png") center no-repeat;
   background-size: cover;
 }
 .TeamSection {
-  background: url("./assets/img/bg.png") center no-repeat;
-  background-size: cover;
+  background: rgb(26, 26, 44);
 }
 /* .footer {
   background-image: url("./assets/img/noise-footer.png") center no-repeat;
   background-size: cover;
 } */
+
+@media screen and (max-width: 1024px) {
+  #hero {
+    width: 100%;
+    min-height: 100vh;
+    background: url("./assets/img/bg.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .TeamSection {
+    background: url("./assets/img/bg.png") center no-repeat;
+    background-size: cover;
+  }
+}

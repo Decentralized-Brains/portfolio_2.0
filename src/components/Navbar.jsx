@@ -64,8 +64,9 @@ const Navbar = () => {
           Decentralized
           <span className="text-Emerald-600 dark:text-purple-500"> Brains</span>
         </h2> */}
-        <img src={Logo} className="w-[200px]" alt="" />
-
+        <a href="/#">
+          <img src={Logo} className="w-[200px]" alt="" />
+        </a>
         <div className="flex items-center justify-center">
           <ul className="hidden md:flex md:gap-4 xl:gap-8">
             {NavLinks.map((data) => (
